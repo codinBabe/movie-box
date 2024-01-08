@@ -1,0 +1,16 @@
+:root {
+  --logo-text-color: #fff; /* Default text color */
+  --logo-font-weight:500;
+}
+.logo a{
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-weight: var(--logo-font-weight);
+    text-decoration: none;
+    color: var(--logo-text-color);
+
+}
+.logo img{
+    width: 25%;
+}

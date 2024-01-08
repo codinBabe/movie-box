@@ -1,0 +1,25 @@
+.signIn{
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+@media (min-width:600px){
+    .signIn{
+        margin-right: 2em;
+        position: static;
+    }
+}
+.signIn a {
+color: #fff;
+font-size: .8rem;
+font-weight: 700;
+text-decoration: none;
+}
+.btn{
+    border: none;
+    background: none;
+    
+}

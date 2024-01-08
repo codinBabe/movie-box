@@ -1,0 +1,36 @@
+.container{
+    margin-top: 5em;
+}
+.title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin: .8em auto;
+}
+.overview, .rating p{
+    color: #fff;
+    font-size: 1rem;
+}
+@media (min-width:600px) {
+    .overview {
+        width: 30%;
+    }
+}
+.btn{
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+    text-transform: uppercase;
+    padding: .8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #BE123C;
+    margin-top: 1.5em;
+    font-size: .6rem;
+}

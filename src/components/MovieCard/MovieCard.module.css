@@ -1,0 +1,61 @@
+.section{
+    margin-bottom: 2em;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     transition: transform 0.2s;
+}
+
+.back_drop{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.bg_img{
+    position: relative;
+}
+.favorite{
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  cursor: pointer;
+  background-color: #F3F4F680;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+.favorite :hover{
+    /* transform: scale(1.2); */
+    opacity: 0.8;
+}
+.movie_details{
+    margin: 0;
+    padding: 1em;
+}
+.movie-details h3 {
+  font-size: 1rem;
+  margin: .6em 0;
+}
+.movie_details p{
+    color: #9CA3AF;
+    margin: .8em 0;
+    font-size: .8rem;
+    font-weight: 500;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex{
+    display: inline-flex;
+    gap: .7em;
+}
+.rating p{
+    color: #111827;
+}
+.red{
+    color: red;
+}

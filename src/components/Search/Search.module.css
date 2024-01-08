@@ -1,0 +1,29 @@
+.search_component{
+    position: relative;
+    margin: .4em 0;
+    
+}
+.search_component input{
+    background: transparent;
+    width: 100%;
+    outline: none;
+    padding: .6em .8em;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+}
+@media (min-width: 600px) {
+    .search_component{
+        width: 40%;
+    }
+}
+.search_component input::placeholder{
+    color: white;
+}
+.search_component button{
+    background: none;
+    position: absolute;
+    border: none;
+    top: 7px;
+    right: 7px;
+}
